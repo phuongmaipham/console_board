@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a67103bb5bf80f5fc5d6711a79f08b34a0e0aa68">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d3e78df6200da8d2a1f9d3b784e5743f0f6e2ebb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_b32f8db42ee8e6fcab47efff5df5ce4240f8b179/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_c02a170f83765694a8a4dab3bae76955581137fe/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_860290b794b2c534b32c34515cef35e3d2a9543e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_0619c84fd3f60e3d2aa8612d1c57d4f72da24211/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_856c4efbc3cf23c2ef081545ef9902da6bcbca88/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="90de28efaf1c21f3658bfb5a85c1c6a6a9931479">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f172d2c8f1b26dfc530a63b67997e7a441e5dfa5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_7eb8fde6f506bb1e16f99e8d658ce02ea903a98d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_349543c800dfa9338eddac2958012e3c45e285d0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_5936ddbe0a593376f4cf677a3848b34bc3636939/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/.gradle/caches/modules-2/files-2.1/org.jbundle.util.osgi.wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/98c86e42679fe7ac066f6c242e0d14f0bce0bb7c/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_136001ea62d6d3e39b8eebc29dd236feb39de7b3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_fce6280f1f3942ad8d202f96d61dcb67b815dbe6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_814a2419ab7949148bc9b461cc03f97bad62816a/classes.dex" />
+    </item>
+
+</items>
