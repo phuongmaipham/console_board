@@ -13,14 +13,12 @@ import android.widget.Toast;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.protocol.HTTP;
 
 import java.util.ArrayList;
 
@@ -61,13 +59,9 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         switch (v.getId()) {
             case R.id.left:
                 new UploadMyCommand("left").execute();
-                Toast.makeText(MainActivity.this,
-                        "left is clicked!", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.right:
                 new UploadMyCommand("right").execute();
-                Toast.makeText(MainActivity.this,
-                        "right is clicked!", Toast.LENGTH_SHORT).show();
                 break;
         }
 
@@ -121,40 +115,23 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
             this.move = move;
         }
 
-        @Override protected void onPreExecute() {
-            super.onPreExecute();
-           /* pDialog = new ProgressDialog(MainActivity.this);
-            pDialog.setMessage("Sending part to the database..."); //Set the message for the loading window
-            pDialog.setIndeterminate(false);
-            pDialog.setCancelable(true);
-            pDialog.show(); //Place the loading message on the screen*/
-            Toast.makeText(MainActivity.this,
-                    "button is clicked!", Toast.LENGTH_SHORT).show();
-        }
-
         @Override
         protected Void doInBackground(Void... params) {
 
             ArrayList<NameValuePair> dataToSend = new ArrayList<>();
             dataToSend.add(new BasicNameValuePair("Description",move));
 
-            //JSONObject json = jsonParser.makeHttpRequest("RaspberryPi_IP/db_create.php", "POST", dataToSend);
-
-          //  HttpParams httpRequestParams = getHttpRequestParams();
-            //Toast.makeText(getApplicationContext(), "Connected to server", Toast.LENGTH_SHORT).show();
-
             HttpClient httpclient = new DefaultHttpClient();
             HttpPost post = new HttpPost("http://192.168.1.92/db_upload.php");
 
             try {
 
-              //  post.setEntity(new UrlEncodedFormEntity(dataToSend));
-               // httpclient.execute(post);
+                post.setEntity(new UrlEncodedFormEntity(dataToSend));
+                httpclient.execute(post);
 
-                post.setEntity(new UrlEncodedFormEntity(dataToSend, HTTP.UTF_8));
-
-                HttpResponse response = httpclient.execute(post);
-                finish();
+                //post.setEntity(new UrlEncodedFormEntity(dataToSend, HTTP.UTF_8));
+                //HttpResponse response = httpclient.execute(post);
+                //finish();
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -166,16 +143,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         @Override
         protected void onPostExecute(Void aVoid) {
                 super.onPostExecute(aVoid);
-                Toast.makeText(getApplicationContext(), "DB UPLOADED", Toast.LENGTH_SHORT).show();
-               // pDialog.dismiss(); // Close the loading window when ready
+                Toast.makeText(getApplicationContext(), "COMMAND UPLOADED ON SERVER", Toast.LENGTH_SHORT).show();
         }
-
- /*   private HttpParams getHttpRequestParams () {
-        HttpParams httpRequestParams = new BasicHttpParams();
-        HttpConnectionParams.setConnectionTimeout(httpRequestParams, 1000*30);
-        HttpConnectionParams.setSoTimeout(httpRequestParams, 1000*30);
-        return httpRequestParams;
-    }*/
     }
 
 }
