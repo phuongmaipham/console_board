@@ -44,9 +44,34 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
         ImageButton left = (ImageButton) findViewById(R.id.left);
         ImageButton right = (ImageButton) findViewById(R.id.right);
+        ImageButton up = (ImageButton) findViewById(R.id.up);
+        ImageButton down = (ImageButton) findViewById(R.id.down);
+
+        ImageButton my_left = (ImageButton) findViewById(R.id.my_left);
+        ImageButton my_right = (ImageButton) findViewById(R.id.my_right);
+        ImageButton start = (ImageButton) findViewById(R.id.start);
+        ImageButton back = (ImageButton) findViewById(R.id.back);
+
+        ImageButton circle = (ImageButton) findViewById(R.id.circle);
+        ImageButton triangle = (ImageButton) findViewById(R.id.triangle);
+        ImageButton square = (ImageButton) findViewById(R.id.square);
+        ImageButton cross = (ImageButton) findViewById(R.id.cross);
 
         left.setOnClickListener(this);
         right.setOnClickListener(this);
+        up.setOnClickListener(this);
+        down.setOnClickListener(this);
+
+        circle.setOnClickListener(this);
+        triangle.setOnClickListener(this);
+        cross.setOnClickListener(this);
+        square.setOnClickListener(this);
+
+        my_left.setOnClickListener(this);
+        my_right.setOnClickListener(this);
+        start.setOnClickListener(this);
+        back.setOnClickListener(this);
+
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -62,6 +87,36 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                 break;
             case R.id.right:
                 new UploadMyCommand("right").execute();
+                break;
+            case R.id.up:
+                new UploadMyCommand("up").execute();
+                break;
+            case R.id.down:
+                new UploadMyCommand("down").execute();
+                break;
+            case R.id.cross:
+                new UploadMyCommand("cross").execute();
+                break;
+            case R.id.circle:
+                new UploadMyCommand("circle").execute();
+                break;
+            case R.id.square:
+                new UploadMyCommand("square").execute();
+                break;
+            case R.id.triangle:
+                new UploadMyCommand("triangle").execute();
+                break;
+            case R.id.my_left:
+                new UploadMyCommand("my_left").execute();
+                break;
+            case R.id.my_right:
+                new UploadMyCommand("my_right").execute();
+                break;
+            case R.id.start:
+                new UploadMyCommand("start").execute();
+                break;
+            case R.id.back:
+                new UploadMyCommand("back").execute();
                 break;
         }
 

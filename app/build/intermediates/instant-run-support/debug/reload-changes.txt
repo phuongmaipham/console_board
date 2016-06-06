@@ -1,2 +1,14 @@
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/phuongpham/consoleboard/R$layout$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/phuongpham/consoleboard/R$integer$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/google/android/gms/appindexing/R$drawable$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/phuongpham/consoleboard/R$id$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/phuongpham/consoleboard/R$menu$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/design/R$drawable$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/phuongpham/consoleboard/R$style$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$drawable$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/phuongpham/consoleboard/R$string$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/phuongpham/consoleboard/R$styleable$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/phuongpham/consoleboard/R$mipmap$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/google/android/gms/R$drawable$override.class
+CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/phuongpham/consoleboard/R$drawable$override.class
 CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/phuongpham/AndroidStudioProjects/ConsoleBoard/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/phuongpham/consoleboard/MainActivity$UploadMyCommand$override.class
